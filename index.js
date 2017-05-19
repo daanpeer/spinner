@@ -7,7 +7,7 @@ module.exports = (callback, speed) => {
       currentChar = 0
     }
 
-    callBack(chars[currentChar])
+    callback(chars[currentChar])
     currentChar++
   }, speed)
 }
