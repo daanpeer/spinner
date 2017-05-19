@@ -1,8 +1,9 @@
 {
-  "name": "spinner",
-  "version": "1.0.0",
+  "name": "most-awesome-spinner-ever",
+  "version": "1.0.1",
   "description": "Most awesome spinner evar",
   "main": "index.js",
+  "email": "daan.gdh@gmail.com",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
