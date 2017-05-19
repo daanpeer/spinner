@@ -1,0 +1,22 @@
+{
+  "name": "spinner",
+  "version": "1.0.0",
+  "description": "Most awesome spinner evar",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daanpeer/spinner.git"
+  },
+  "keywords": [
+    "spinner"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/daanpeer/spinner/issues"
+  },
+  "homepage": "https://github.com/daanpeer/spinner#readme"
+}
