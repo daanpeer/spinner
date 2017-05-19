@@ -1,13 +1,13 @@
-module.exports = (callback, speed) => {
-  const chars = ['⠋', '⠙', '⠹', '⠸', '⠼', '⠴', '⠦', '⠧', '⠇', '⠏']
-  let currentChar = 0
+module.exports = function (callback, speed) {
+  var chars = ['⠋', '⠙', '⠹', '⠸', '⠼', '⠴', '⠦', '⠧', '⠇', '⠏'];
+  var currentChar = 0;
 
-  return setInterval(() => {
+  return setInterval(function () {
     if (currentChar === chars.length) {
-      currentChar = 0
+      currentChar = 0;
     }
 
-    callback(chars[currentChar])
-    currentChar++
-  }, speed)
-}
+    callback(chars[currentChar]);
+    currentChar++;
+  }, speed);
+};
